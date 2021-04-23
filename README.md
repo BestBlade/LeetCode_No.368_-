@@ -20,12 +20,12 @@
       nums 中的所有整数 互不相同
 
 ### 解法思路
-* 动态规划，dp[i] = max(dp[i],dp[j]+1)(i % j == 0)
+* 动态规划，dp[i] = max(dp[ i ], dp[ j ] + 1) && (i % j == 0)
   * 时间复杂度O(n^2)
   * 空间复杂度O(n)
   *	执行用时：40 ms, 在所有 C++ 提交中击败了98.25%的用户
   *	内存消耗：8.5 MB, 在所有 C++ 提交中击败了65.69%的用户
 
-来源：力扣（LeetCode）
-链接：https://leetcode-cn.com/problems/largest-divisible-subset
+来源：力扣（LeetCode）\
+链接：https://leetcode-cn.com/problems/largest-divisible-subset \
 著作权归领扣网络所有。商业转载请联系官方授权，非商业转载请注明出处。
